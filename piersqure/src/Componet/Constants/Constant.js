@@ -9,3 +9,4 @@ export const Home_page = "/Home"
 // export const VIEW_BLOGS = "/blogs"
 // export const BADRI_NATH = "/badrinath_temple"
 // export const VIEW_BOOKING = "/view_booking"
+

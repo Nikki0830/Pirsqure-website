@@ -1,4 +1,16 @@
 .flex-row-reverse{
      padding-top: 60px;
-     background-image: linear-gradient(to bottom right, black, white,red);
+     background-image: linear-gradient(to bottom right, black, white,green);
+}
+.col-sm-3{
+    color: black;
+    margin-bottom: 30px;
+    text-decoration: none;
+    font-style:unset;
+    font-weight: bolder;
+    font-size:small;
+}
+.img-thumbnail{
+    width: 20%;
+    height:2%;
 }

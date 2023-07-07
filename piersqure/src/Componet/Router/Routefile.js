@@ -12,6 +12,7 @@ function Routefile() {
   return (
     <>
       <Switch>
+      {/* <Route index element={<Home />} /> */}
         <Route exact path="/">
           <Home />
         </Route>
