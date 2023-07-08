@@ -10,10 +10,11 @@ import program from "../image/program3.jpg";
 function Navbar() {
   return (
     <>
-      <div
+      <div className="col-xs-12"
         style={{
           backgroundImage: `url(${program})`,
           height: "200px",
+          // width:"100%"
         }}
       >
         <div className="d-flex flex-row-reverse" id="icon-container">

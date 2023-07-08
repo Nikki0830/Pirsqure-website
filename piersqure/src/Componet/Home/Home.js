@@ -1,30 +1,38 @@
 import React from "react";
 import "./Home.css";
+import { Col } from "react-bootstrap";
 import { Icon } from "@iconify/react";
+// import devIcon from '@iconify-icons/fa-brands/dev';
 import process from "../image/process.png";
 function Home() {
   return (
     <>
       <p className="align-self-centert mt-4">Our Services</p>
-      <div className="container" style={{ marginLeft: "4rem" }}>
+      <div className="container">
+        {/* style={{ marginLeft: "4rem" }} */}
         <div className="row">
-          <div className="card" style={{ width: "19rem", marginRight: "1rem" }}>
-            <Icon
-              className="col-sm-12 mt-2"
-              icon="fa6-brands:dev"
-              color="#26606e"
-              width="50"
-              height="50"
-            />
-            <div className="card-body">
-              <h5 className="card-title">Software development</h5>
-              <p className="card-text">JAVA | .Net | Node.js</p>
-              <p href="#" className="btn btn-primary">
-                Comming soon
-              </p>
+          <Col xs={12} sm={4} md={12} lg={12} xl={12} className="mb-4">
+            <div
+              className="card"
+              style={{ width: "100%", marginRight: "1rem" }}
+            >
+              <Icon
+                className="col-sm-12 mt-2"
+                icon="fa6-brands:dev"
+                color="#26606e"
+                width="50"
+                height="50"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Software development</h5>
+                <p className="card-text">JAVA | .Net | Node.js</p>
+                <a href="#" className="btn btn-primary">
+                  Coming soon
+                </a>
+              </div>
             </div>
-          </div>
-          <div className="card" style={{ width: "19rem", marginRight: "1rem" }}>
+          </Col>
+          {/* <div className="card" style={{ width: "19rem", marginRight: "1rem" }}>
             <Icon
               className="col-sm-12 mt-2"
               icon="bi:laptop"
@@ -71,8 +79,8 @@ function Home() {
                 Comming soon
               </p>
             </div>
-          </div>
-          <div
+          </div> */}
+          {/* <div
             className="card"
             style={{ width: "19rem", marginRight: "1rem", marginTop: "1rem" }}
           >
@@ -147,7 +155,7 @@ function Home() {
                 Comming soon
               </p>
             </div>
-          </div>
+          </div> */}
           <div className="col-md-6 mt-4">
             <div
               style={{
