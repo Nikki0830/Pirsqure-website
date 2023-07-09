@@ -11,7 +11,7 @@ function Home() {
       <div className="container">
         {/* style={{ marginLeft: "4rem" }} */}
         <div className="row">
-          <Col xs={12} sm={4} md={12} lg={12} xl={12} className="mb-4">
+          <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
             <div
               className="card"
               style={{ width: "100%", marginRight: "1rem" }}
@@ -29,6 +29,153 @@ function Home() {
                 <a href="#" className="btn btn-primary">
                   Coming soon
                 </a>
+              </div>
+            </div>
+          </Col>
+          <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
+            <div
+              className="card"
+              style={{ width: "100%", marginRight: "1rem" }}
+            >
+              <Icon
+                className="col-sm-12 mt-2"
+                icon="bi:laptop"
+                color="#26606e"
+                width="50"
+                height="50"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Website development</h5>
+                <p className="card-text">HTML/CSS | JavaScript | React.js</p>
+                <p href="#" className="btn btn-primary">
+                  Comming soon
+                </p>
+              </div>
+            </div>
+          </Col>
+          <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
+            <div
+              className="card"
+              style={{ width: "100%", marginRight: "1rem" }}
+            >
+              <Icon
+                className="col-sm-12 mt-2"
+                icon="fa:mobile"
+                color="#26606e"
+                width="50"
+                height="50"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Mobile development</h5>
+                <p className="card-text">ANDROID | React Native | IOS</p>
+                <p href="#" className="btn btn-primary">
+                  Comming soon
+                </p>
+              </div>
+            </div>
+          </Col>
+          <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
+            <div
+              className="card"
+              style={{ width: "100%", marginRight: "1rem" }}
+            >
+              <Icon
+                className="col-sm-12 mt-2"
+                icon="icon-park-solid:api"
+                color="#26606e"
+                width="50"
+                height="50"
+              />
+              <div className="card-body">
+                <h5 className="card-title">API Integration</h5>
+                <p className="card-text">Payment getway | SMS getway</p>
+                <p href="#" className="btn btn-primary">
+                  Comming soon
+                </p>
+              </div>
+            </div>
+          </Col>
+          <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
+            <div
+              className="card"
+              style={{ width: "100%", marginRight: "1rem" }}
+            >
+              <Icon
+                className="col-sm-12 mt-2"
+                icon="fluent:design-ideas-16-filled"
+                color="#26606e"
+                width="50"
+                height="50"
+              />
+              <div className="card-body">
+                <h5 className="card-title">UI & UX design</h5>
+                <p className="card-text">Angular.js | Bootstrap | Photoshop</p>
+                <p href="#" className="btn btn-primary">
+                  Comming soon
+                </p>
+              </div>
+            </div>
+          </Col>
+          <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
+            <div
+              className="card"
+              style={{ width: "100%", marginRight: "1rem" }}
+            >
+              <Icon
+                className="col-sm-12 mt-2"
+                icon="mdi:google-classroom"
+                color="#26606e"
+                width="50"
+                height="50"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Corporate Training</h5>
+                <p className="card-text">Online | Classroom Online| Offline </p>
+                <p href="#" className="btn btn-primary">
+                  Comming soon
+                </p>
+              </div>
+            </div>
+          </Col>
+          <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
+            <div
+              className="card"
+              style={{ width: "100%", marginRight: "1rem" }}
+            >
+              <Icon
+                className="col-sm-12 mt-2"
+                icon="mdi:wrench-cog"
+                color="#26606e"
+                width="50"
+                height="50"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Maintenance</h5>
+                <p className="card-text">Website | Application | Server</p>
+                <p href="#" className="btn btn-primary">
+                  Comming soon
+                </p>
+              </div>
+            </div>
+          </Col>
+          <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
+            <div
+              className="card"
+              style={{ width: "100%", marginRight: "1rem" }}
+            >
+              <Icon
+                className="col-sm-12 mt-2"
+                icon="ri:cloud-fill"
+                color="#26606e"
+                width="50"
+                height="50"
+              />
+              <div className="card-body">
+                <h5 className="card-title">IT Consulting</h5>
+                <p className="card-text">Requirement | Proposal</p>
+                <p href="#" className="btn btn-primary">
+                  Comming soon
+                </p>
               </div>
             </div>
           </Col>
@@ -164,7 +311,7 @@ function Home() {
                 height: "25rem",
                 width: "100%",
                 maxWidth: "35rem",
-                marginTop: "3rem",
+                marginTop: "1rem",
               }}
             ></div>
           </div>
