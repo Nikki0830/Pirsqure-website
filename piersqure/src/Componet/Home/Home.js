@@ -11,14 +11,14 @@ function Home() {
       <div className="container">
         {/* style={{ marginLeft: "4rem" }} */}
         <div className="row">
-          <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
+          {/* <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
             <div
               className="card"
               style={{ width: "100%", marginRight: "1rem" }}
             >
               <Icon
                 className="col-sm-12 mt-2"
-                icon="fa6-brands:dev"
+                icon="material-symbols:logo-dev-outline"
                 color="#26606e"
                 width="50"
                 height="50"
@@ -29,6 +29,27 @@ function Home() {
                 <a href="#" className="btn btn-primary">
                   Coming soon
                 </a>
+              </div>
+            </div>
+          </Col> */}
+            <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
+            <div
+              className="card"
+              style={{ width: "100%", marginRight: "1rem" }}
+            >
+              <Icon
+                className="col-sm-12 mt-2"
+                icon="material-symbols:logo-dev-outline"
+                color="#26606e"
+                width="50"
+                height="50"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Software development</h5>
+                <p className="card-text">JAVA | .Net | Node.js</p>
+                <p href="#" className="btn btn-primary">
+                  Comming soon
+                </p>
               </div>
             </div>
           </Col>
