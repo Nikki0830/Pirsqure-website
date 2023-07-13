@@ -412,7 +412,7 @@ function Home() {
                 height: "17rem",
                 width: "100%",
                 // maxWidth: "35rem",
-                marginTop: "11rem",
+                marginTop: "10rem",
               }}
             >
               </div>
