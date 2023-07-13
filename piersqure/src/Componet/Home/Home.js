@@ -346,7 +346,7 @@ function Home() {
             /> */}
             <div
               style={{
-                backgroundImage: `url("https://th.bing.com/th/id/OIP.BDSWib2U3_7FCgtoQZCw9AHaFC?w=272&h=185&c=7&r=0&o=5&dpr=1.5&pid=1.7")`,
+                backgroundImage: `url("https://th.bing.com/th/id/OIP.tJ3Sy8wzuodXuqe5MXjELgHaFP?pid=ImgDet&rs=1")`,
                 // backgroundRepeat: "no-repeat",
                 height: "20rem",
                 width: "100%",
