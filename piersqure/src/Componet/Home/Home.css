@@ -3,16 +3,27 @@
   font-size: 30px;
   font-weight: bold;
   color: #012942;
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.animate-charcter {
+  /* font-size: large;
 
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
+  
+  /* margin-top: "rem", */
+  max-height: 20px;
 }
-.card{
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
-.animate-charcter{
-    font-size: larger;
-    color: #106d65;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* animation: move 3s infinite ease-in-out; */
+.Devpara-1 {
+  /* background: -webkit-linear-gradient(black, magenta);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  font-size: 18px;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: rgb(7, 98, 108);
 }
 /* @keyframes move {
   0% {
@@ -26,4 +37,3 @@
     color:#21b9ac,
     font-size larger;
 } */
-

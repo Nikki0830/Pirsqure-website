@@ -32,7 +32,7 @@ function Home() {
               </div>
             </div>
           </Col> */}
-            <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
+          <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
             <div
               className="card"
               style={{ width: "100%", marginRight: "1rem" }}
@@ -344,25 +344,78 @@ function Home() {
               height="100"
             
             /> */}
-            <p className="animate-charcter">
-              Software development is the art of turning ideas into functional
-              and reliable computer programs. <br />
-              <br />
-              The software development lifecycle involves iterative processes,
-              feedback loops, and agile methodologies to ensure efficient
-              development, quick iterations, and continuous improvement of
-              software products.
-              <br />
-              <br />
-              Software development encompasses a wide range of domains,
-              including web development, mobile app development, artificial
-              intelligence, data analysis, and more.
-              <br />
-              <br />
-              It involves analyzing requirements, designing system architecture,
-              coding, testing, and deploying.
-            </p>
+            <div
+              style={{
+                backgroundImage: `url("https://th.bing.com/th/id/OIP.BDSWib2U3_7FCgtoQZCw9AHaFC?w=272&h=185&c=7&r=0&o=5&dpr=1.5&pid=1.7")`,
+                // backgroundRepeat: "no-repeat",
+                height: "20rem",
+                width: "100%",
+                // maxWidth: "35rem",
+                marginTop: "1rem",
+              }}
+            >
+              <div className="animate-charcter">
+                <marquee
+                  className="Devpara-1"
+                  width="100%"
+                  direction="up"
+                  height="100px"
+                >
+                  Software development is the art of turning ideas into
+                  functional and reliable computer programs.
+                </marquee>
+                <br />
+                <br />
+                <marquee
+                  className="Devpara-1"
+                  width="100%"
+                  direction="up"
+                  height="100px"
+                >
+                  The software development lifecycle involves iterative
+                  processes, feedback loops, and agile methodologies to ensure
+                  efficient development, quick iterations, and continuous
+                  improvement of software products.
+                </marquee>
+                <br />
+                <br />
+                <marquee
+                  className="Devpara-1"
+                  width="100%"
+                  direction="up"
+                  height="100px"
+                >
+                  Software development encompasses a wide range of domains,
+                  including web development, mobile app development, artificial
+                  intelligence, data analysis, and more.
+                </marquee>
+                <br />
+                <br />
+                <marquee
+                  className="Devpara-1"
+                  width="100%"
+                  direction="up"
+                  height="100px"
+                >
+                  It involves analyzing requirements, designing system
+                  architecture, coding, testing, and deploying.
+                </marquee>
+              </div>
+            </div>
           </div>
+        </div>
+        <div className="conversation-container">
+        <div
+              style={{
+                backgroundImage: `url("https://th.bing.com/th/id/OIP.66TNqL3N2XweZEvr5OqDIAHaEK?w=297&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7")`,
+                // backgroundRepeat: "no-repeat",
+                height: "17rem",
+                width: "100%",
+                // maxWidth: "35rem",
+                marginTop: "11rem",
+              }}
+            >
+              </div>
         </div>
       </div>
     </>

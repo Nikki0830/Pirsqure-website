@@ -10,7 +10,8 @@ import program from "../image/program3.jpg";
 function Navbar() {
   return (
     <>
-      <div className="col-xs-12"
+      <div
+        className="col-xs-12"
         style={{
           backgroundImage: `url(${program})`,
           height: "200px",
@@ -42,6 +43,9 @@ function Navbar() {
         <img src={Pier} className="navbar-image" alt="Cinque Terre" />
         <div className="align-self-center">
           <Link className="col-sm-3 p-2 " to="/">
+            {/* <marquee width="6%" direction="up" height="10px">
+              Home
+            </marquee> */}
             HOME
           </Link>
           <Link className="col-sm-3 p-2 " to="/about">
