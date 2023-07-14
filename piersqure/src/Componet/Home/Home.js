@@ -375,7 +375,6 @@ function Home() {
                   }
                   blinkTimeAfterFinish={-1}
                 >
-                  {" "}
                   Development!{" "}
                 </BlinkingCursorTextBuilder>
                 <p
