@@ -2,10 +2,7 @@ import React from "react";
 import "./Home.css";
 import { Col } from "react-bootstrap";
 import { Icon } from "@iconify/react";
-import {
-  BlinkingCursorTextBuilder,
-
-} from "react-animated-text-builders";
+import { BlinkingCursorTextBuilder } from "react-animated-text-builders";
 // import devIcon from '@iconify-icons/fa-brands/dev';
 // import process from "../image/process.png";
 function Home() {
@@ -359,7 +356,7 @@ function Home() {
               }}
             >
               <div className="animate-charcter">
-              <BlinkingCursorTextBuilder
+                <BlinkingCursorTextBuilder
                   textStyle={{
                     fontWeight: "bold",
                     font: "Times New Roman",
@@ -371,11 +368,11 @@ function Home() {
                     marginBottom: "20px",
                   }}
                   cursorComponent={
-                    <div style={{ color: "green" }}> Java Java Java</div>
+                    <div style={{ color: "green" }}> Java Java Java </div>
                   }
                   blinkTimeAfterFinish={-1}
                 >
-                  Development!{" "}
+                  Development !{" "}
                 </BlinkingCursorTextBuilder>
                 <p
                   className="Devpara-1"
@@ -391,7 +388,6 @@ function Home() {
         lettersAppearanceDelay={250}
       > Floating Letters 
 </FloatingLettersTextBuilder> */}
-            
 
                 {/* <FloatingLettersTextBuilder
                   floatingSpeed={500}
@@ -444,18 +440,37 @@ function Home() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="conversation-container">
           <div
             style={{
               backgroundImage: `url("https://th.bing.com/th/id/OIP.66TNqL3N2XweZEvr5OqDIAHaEK?w=297&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7")`,
               // backgroundRepeat: "no-repeat",
-              height: "17rem",
+              height: "14rem",
               width: "100%",
               // maxWidth: "35rem",
-              marginTop: "11rem",
+              // float:"inline-end",
+              marginTop: "14rem",
             }}
-          ></div>
+          >
+            <div className="conversation-container">
+              <hr
+                style={{
+                  transform: "rotate(-10deg)",
+                  height: "200px",
+                  width: "2px",
+                  marginLeft:"50%",
+                  color:"black",
+               
+                  // display: flex,
+                  // justifyContent: center,
+                  // alignItems: center,
+                  // display:"flex",
+                  // justifyContent:"center",
+                  // alignItems:"center"
+                }}
+                className=""
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>

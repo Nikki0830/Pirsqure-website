@@ -39,3 +39,14 @@
     color:#21b9ac,
     font-size larger;
 } */
+.conversation-container{
+    background-image: linear-gradient(
+        to bottom right,
+    rgb(168, 241, 241),white
+      ); 
+        height: 250px;
+        width:88%;
+        float: right;
+        border-radius: 10px;
+        /* background: transparent; */
+}
