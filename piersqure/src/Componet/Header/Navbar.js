@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Pier from "../image/Pier.png";
-import Library from "../Reactlibraries/Library";
+// import Library from "../Reactlibraries/Library";
 import { Icon } from "@iconify/react";
 
 import program from "../image/program3.jpg";

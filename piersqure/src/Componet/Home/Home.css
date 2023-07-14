@@ -20,6 +20,8 @@
   /* background: -webkit-linear-gradient(black, magenta);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
+  /* animation: 3s linear 1s infinite alternate slidein;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
   font-size: 18px;
   font-family:'Times New Roman', Times, serif;
   font-weight: bold;

@@ -2,8 +2,12 @@ import React from "react";
 import "./Home.css";
 import { Col } from "react-bootstrap";
 import { Icon } from "@iconify/react";
+import {
+  BlinkingCursorTextBuilder,
+
+} from "react-animated-text-builders";
 // import devIcon from '@iconify-icons/fa-brands/dev';
-import process from "../image/process.png";
+// import process from "../image/process.png";
 function Home() {
   return (
     <>
@@ -351,11 +355,30 @@ function Home() {
                 height: "20rem",
                 width: "100%",
                 // maxWidth: "35rem",
-                marginTop: "1rem",
+                // marginTop: "1rem",
               }}
             >
               <div className="animate-charcter">
-                <marquee
+              <BlinkingCursorTextBuilder
+                  textStyle={{
+                    fontWeight: "bold",
+                    font: "Times New Roman",
+                    fontSize: "23px",
+                  }}
+                  style={{
+                    transform: "rotate(-6deg)",
+                    // marginTop: "10px",
+                    marginBottom: "20px",
+                  }}
+                  cursorComponent={
+                    <div style={{ color: "green" }}> Java Java Java</div>
+                  }
+                  blinkTimeAfterFinish={-1}
+                >
+                  {" "}
+                  Development!{" "}
+                </BlinkingCursorTextBuilder>
+                <p
                   className="Devpara-1"
                   width="100%"
                   direction="up"
@@ -363,10 +386,29 @@ function Home() {
                 >
                   Software development is the art of turning ideas into
                   functional and reliable computer programs.
-                </marquee>
+                </p>
+                {/* <FloatingLettersTextBuilder
+        floatingSpeed={500}
+        lettersAppearanceDelay={250}
+      > Floating Letters 
+</FloatingLettersTextBuilder> */}
+            
+
+                {/* <FloatingLettersTextBuilder
+                  floatingSpeed={500}
+                  lettersAppearanceDelay={250}
+                  animationMaxMargin={"200px"}
+                  animationMinMargin={"0px"}
+                  onAnimationFinished={() => {
+                    alert("Animation Finished!");
+                  }}
+                >
+                  {" "}
+                  Floating Letters{" "}
+                </FloatingLettersTextBuilder> */}
                 <br />
                 <br />
-                <marquee
+                <p
                   className="Devpara-1"
                   width="100%"
                   direction="up"
@@ -376,10 +418,10 @@ function Home() {
                   processes, feedback loops, and agile methodologies to ensure
                   efficient development, quick iterations, and continuous
                   improvement of software products.
-                </marquee>
+                </p>
                 <br />
                 <br />
-                <marquee
+                <p
                   className="Devpara-1"
                   width="100%"
                   direction="up"
@@ -388,10 +430,10 @@ function Home() {
                   Software development encompasses a wide range of domains,
                   including web development, mobile app development, artificial
                   intelligence, data analysis, and more.
-                </marquee>
+                </p>
                 <br />
                 <br />
-                <marquee
+                <p
                   className="Devpara-1"
                   width="100%"
                   direction="up"
@@ -399,23 +441,22 @@ function Home() {
                 >
                   It involves analyzing requirements, designing system
                   architecture, coding, testing, and deploying.
-                </marquee>
+                </p>
               </div>
             </div>
           </div>
         </div>
         <div className="conversation-container">
-        <div
-              style={{
-                backgroundImage: `url("https://th.bing.com/th/id/OIP.66TNqL3N2XweZEvr5OqDIAHaEK?w=297&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7")`,
-                // backgroundRepeat: "no-repeat",
-                height: "17rem",
-                width: "100%",
-                // maxWidth: "35rem",
-                marginTop: "11rem",
-              }}
-            >
-              </div>
+          <div
+            style={{
+              backgroundImage: `url("https://th.bing.com/th/id/OIP.66TNqL3N2XweZEvr5OqDIAHaEK?w=297&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7")`,
+              // backgroundRepeat: "no-repeat",
+              height: "17rem",
+              width: "100%",
+              // maxWidth: "35rem",
+              marginTop: "11rem",
+            }}
+          ></div>
         </div>
       </div>
     </>
