@@ -451,15 +451,18 @@ function Home() {
               marginTop: "14rem",
             }}
           >
-            <div className="conversation-container">
-              <hr
+            <div className="conversation-container d-flex justify-content-evenly">
+            <p className="mt-4">Start the Conversation</p>
+            <hr
                 style={{
                   transform: "rotate(-10deg)",
                   height: "200px",
                   width: "2px",
-                  marginLeft:"50%",
-                  color:"black",
-               
+                  // marginLeft: "5%",
+                  color: "#333",
+                  marginTop: "3%",
+                  backgroundColor:"#333"
+
                   // display: flex,
                   // justifyContent: center,
                   // alignItems: center,
@@ -469,6 +472,9 @@ function Home() {
                 }}
                 className=""
               />
+            <p className="mt-4">Start the Conversation</p>
+            
+             
             </div>
           </div>
         </div>
