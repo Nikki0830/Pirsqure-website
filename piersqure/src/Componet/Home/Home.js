@@ -1,12 +1,20 @@
 import React from "react";
 import "./Home.css";
-import { Button, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import { Icon } from "@iconify/react";
 import { BlinkingCursorTextBuilder } from "react-animated-text-builders";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+// import { Carousel } from "react-responsive-carousel";
+import Slider from "react-animated-slider";
+import 'react-animated-slider/build/horizontal.css';
 
 // import devIcon from '@iconify-icons/fa-brands/dev';
 // import process from "../image/process.png";
 function Home() {
+  const slides = [
+    { title: "First item", description: "Lorem ipsum" },
+    { title: "Second item", description: "Lorem ipsum" },
+  ];
   return (
     <>
       <p className="align-self-centert mt-4">Our Services</p>
@@ -453,15 +461,6 @@ function Home() {
             }}
           >
             <div className="conversation-container d-flex justify-content-evenly">
-              <div>
-              <p className="mt-4">Start The Conversation</p>
-              {/* <Button variant="contained" disableElevation>
-                Disable elevation
-              </Button> */}
-               <Button variant="primary" size="lg" style={{height:"50px"}} active>
-        Primary button
-      </Button>{' '}
-      </div>
               {/* <hr
                 style={{
                   transform: "rotate(-10deg)",
@@ -481,7 +480,155 @@ function Home() {
                 }}
                 className=""
               /> */}
-              <p className="mt-4">Start the Conversation</p>
+              {/* ------------------- Carouser---------------- */}
+              {/* <div className="col-12 col-md-6">
+                <div className="banner-section ">
+                  <div
+                    id="carouselExampleCaptions"
+                    className="carousel slide pointer-event"
+                    data-bs-ride="carousel"
+                  >
+                    <div className="carousel-indicators">
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0"
+                        className="text-dark"
+                        aria-label="Slide 1"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                        className="text-dark"
+                      ></button>
+                      <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                        // className="carousel-indicators-color active"
+                        aria-current="true"
+                        className="text-dark active"
+                      ></button>
+                    </div>
+                    <div className="carousel-inner banner-mobcontent-position">
+                      <div className="carousel-item">
+                        <div className="row content-position">
+                          <div className="text-dark px-5 py-lg-5">
+                            <h1 className="text-center text-capitalize pt-4  mb-3">
+                              Our Preparation-Your Profit.
+                            </h1>
+                            <p className="text-center fs-5">
+                              We specialize in “custom software development”
+                            </p>
+                            <p className="text-center fs-5">
+                              If you can dream it, we can create it.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="carousel-item">
+                        <div className="row content-position">
+                          <div className="text-dark px-5">
+                            <h2 className="text-center text-capitalize mb-3">
+                              Software Consulting And Development For Your
+                              Digital Success
+                            </h2>
+                            <p className="text-center fs-5">
+                              We transform businesses with powerful and
+                              adaptable digital solutions that satisfy the needs
+                              of today and unlock the opportunities of tomorrow.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="carousel-item active">
+                        <div className="row content-position">
+                          <div className="text-dark px-5 py-4">
+                            <h2 className="text-center text-capitalize mb-3">
+                              We build amazing digital products
+                            </h2>
+                            <p className="text-center fs-5">
+                              Our approach is driven by a sense of ownership,
+                              user obsession and business benefits
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> */}
+              {/* <div
+                id="carouselExampleSlidesOnly"
+                className="carousel slide"
+                data-ride="carousel"
+              >
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img
+                      className="d-block w-100"
+                      src="https://th.bing.com/th/id/OIP.dtO4ONb5CAFSWQ82APlz4wHaFG?w=217&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                      alt="First slide"
+                    />
+                  </div>
+                  <div className="carousel-item">
+                    <img
+                      className="d-block w-100"
+                      src="https://th.bing.com/th/id/OIP.Ev7i4bUdqs5tSLjWuWLmtgAAAA?w=177&h=166&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                      alt="Second slide"
+                    />
+                  </div>
+                  <div className="carousel-item">
+                    <img
+                      className="d-block w-100"
+                      src="https://th.bing.com/th/id/OIP.hLsM4ell_wXM2BgQ0bBdLQHaEv?w=230&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                      alt="Third slide"
+                    />
+                  </div>
+                </div>
+              </div> */}
+              {/* <Carousel>
+                <div>
+                  <img src="https://th.bing.com/th?id=OIP.mqylOtAi9gidsKGmzpXtggHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" />
+                  <p className="legend">Legend 1</p>
+                </div>
+                <div>
+                  <img src="https://th.bing.com/th?id=OIP.RBeXsiliJ3p1HWrEL24skQHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" />
+                  <p className="legend">Legend 2</p>
+                </div>
+                <div>
+                  <img src="https://th.bing.com/th?id=OIP.YxzI-y8ycOFwUfiUC4B0tAHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" />
+                  <p className="legend">Legend 3</p>
+                </div>
+              </Carousel> */}
+              <Slider
+                // style={{
+                //   slider: "slider",
+                //   previousButton: "previousButton",
+                //   nextButton: "nextButton",
+                //   buttonDisabled: "disabled",
+                //   track: "track",
+                //   slide: "slide",
+                //   hidden: "hidden",
+                //   previous: "previous",
+                //   current: "current",
+                //   next: "next",
+                //   animateIn: "animateIn",
+                //   animateOut: "animateOut",
+                // }}
+                style={{height:"20px"}}
+              >
+                {slides.map((slide, index) => (
+                  <div key={index}>
+                    <h2>{slide.title}</h2>
+                    <div>{slide.description}</div>
+                  </div>
+                ))}
+              </Slider>
+              {/* ------------------- Carouser---------------- */}
             </div>
           </div>
         </div>
