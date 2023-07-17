@@ -1,8 +1,9 @@
 import React from "react";
 import "./Home.css";
-import { Col } from "react-bootstrap";
+import { Button, Col } from "react-bootstrap";
 import { Icon } from "@iconify/react";
 import { BlinkingCursorTextBuilder } from "react-animated-text-builders";
+
 // import devIcon from '@iconify-icons/fa-brands/dev';
 // import process from "../image/process.png";
 function Home() {
@@ -452,16 +453,24 @@ function Home() {
             }}
           >
             <div className="conversation-container d-flex justify-content-evenly">
-            <p className="mt-4">Start the Conversation</p>
-            <hr
+              <div>
+              <p className="mt-4">Start The Conversation</p>
+              {/* <Button variant="contained" disableElevation>
+                Disable elevation
+              </Button> */}
+               <Button variant="primary" size="lg" style={{height:"50px"}} active>
+        Primary button
+      </Button>{' '}
+      </div>
+              {/* <hr
                 style={{
                   transform: "rotate(-10deg)",
                   height: "200px",
                   width: "2px",
-                  // marginLeft: "5%",
-                  color: "#333",
-                  marginTop: "3%",
-                  backgroundColor:"#333"
+                  marginLeft: "5%",
+                  color: "black",
+                  marginTop: "10%",
+                  backgroundColor:"black"
 
                   // display: flex,
                   // justifyContent: center,
@@ -471,10 +480,8 @@ function Home() {
                   // alignItems:"center"
                 }}
                 className=""
-              />
-            <p className="mt-4">Start the Conversation</p>
-            
-             
+              /> */}
+              <p className="mt-4">Start the Conversation</p>
             </div>
           </div>
         </div>

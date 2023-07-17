@@ -48,5 +48,12 @@
         width:88%;
         float: right;
         border-radius: 10px;
+        margin-top: 3%;
         /* background: transparent; */
+}
+.mt-4{
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(35, 62, 53);
 }
