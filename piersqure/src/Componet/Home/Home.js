@@ -19,7 +19,6 @@ function Home() {
     <>
       <p className="align-self-centert mt-4">Our Services</p>
       <div className="container">
-        {/* style={{ marginLeft: "4rem" }} */}
         <div className="row">
           {/* <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
             <div
