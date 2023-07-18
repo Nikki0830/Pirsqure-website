@@ -4,17 +4,22 @@ import { Col } from "react-bootstrap";
 import { Icon } from "@iconify/react";
 import { BlinkingCursorTextBuilder } from "react-animated-text-builders";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import Carousel from "react-elastic-carousel";
+import Item from "./Item";
 // import { Carousel } from "react-responsive-carousel";
-import Slider from "react-animated-slider";
-import 'react-animated-slider/build/horizontal.css';
+// import Slider from "react-animated-slider";
+// import 'react-animated-slider/build/horizontal.css';
 
 // import devIcon from '@iconify-icons/fa-brands/dev';
 // import process from "../image/process.png";
 function Home() {
-  const slides = [
-    { title: "First item", description: "Lorem ipsum" },
-    { title: "Second item", description: "Lorem ipsum" },
-  ];
+  // const items = [
+  //   { width: 1, itemsToShow: 5 },
+  //   { width: 550, itemsToShow: 2 },
+  //   { width: 768, itemsToShow: 3 },
+  //   { width: 1200, itemsToShow: 4 },
+  //   { width: 1260, itemsToShow: 5 },
+  // ];
   return (
     <>
       <p className="align-self-centert mt-4">Our Services</p>
@@ -460,7 +465,7 @@ function Home() {
               marginTop: "14rem",
             }}
           >
-            <div className="conversation-container d-flex justify-content-evenly">
+            <div className="conversation-container">
               {/* <hr
                 style={{
                   transform: "rotate(-10deg)",
@@ -604,21 +609,8 @@ function Home() {
                   <p className="legend">Legend 3</p>
                 </div>
               </Carousel> */}
-              <Slider
-                // style={{
-                //   slider: "slider",
-                //   previousButton: "previousButton",
-                //   nextButton: "nextButton",
-                //   buttonDisabled: "disabled",
-                //   track: "track",
-                //   slide: "slide",
-                //   hidden: "hidden",
-                //   previous: "previous",
-                //   current: "current",
-                //   next: "next",
-                //   animateIn: "animateIn",
-                //   animateOut: "animateOut",
-                // }}
+              {/* <Slider
+           
                 style={{height:"20px"}}
               >
                 {slides.map((slide, index) => (
@@ -627,7 +619,36 @@ function Home() {
                     <div>{slide.description}</div>
                   </div>
                 ))}
-              </Slider>
+              </Slider> */}
+              <Carousel>
+                <Item>
+                  <img
+                    className="slider-iamges"
+                    src="https://th.bing.com/th/id/OIP.kLOvDCpvUGhQIMyAPzI-4QHaE8?w=272&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                    alt=""
+                  />
+                </Item>
+                <Item>
+                  <img
+                    className="slider-iamges"
+                    src="https://th.bing.com/th/id/OIP.E3WZVnuubIK4OqhSTF3cqwHaEK?w=268&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                    alt=""
+                  />
+                </Item>
+
+                <Item>
+                  <img
+                    className="slider-iamges"
+                    src="https://th.bing.com/th/id/OIP.-IZikFglpANto6wFDD7DBQHaE8?w=273&h=182&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                    alt=""
+                  />
+                </Item>
+              </Carousel>
+              {/* <Carousel>
+                {items.map((item) => (
+                  <div key={item.id}>{item.title}</div>
+                ))}
+              </Carousel> */}
               {/* ------------------- Carouser---------------- */}
             </div>
           </div>
