@@ -635,7 +635,6 @@ function Home() {
                     alt=""
                   />
                 </Item>
-
                 <Item>
                   <img
                     className="slider-iamges"
