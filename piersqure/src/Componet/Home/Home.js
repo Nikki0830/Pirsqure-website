@@ -455,7 +455,7 @@ function Home() {
               height: "14rem",
               width: "100%",
               // float:"inline-end",
-              marginTop: "14rem",
+              marginTo: "14rem",
             }}
           >
             <div className="conversation-container">
