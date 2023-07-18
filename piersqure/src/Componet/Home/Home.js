@@ -454,7 +454,6 @@ function Home() {
               // backgroundRepeat: "no-repeat",
               height: "14rem",
               width: "100%",
-              // maxWidth: "35rem",
               // float:"inline-end",
               marginTop: "14rem",
             }}
