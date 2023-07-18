@@ -6,12 +6,7 @@ import { BlinkingCursorTextBuilder } from "react-animated-text-builders";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
-// import { Carousel } from "react-responsive-carousel";
-// import Slider from "react-animated-slider";
-// import 'react-animated-slider/build/horizontal.css';
 
-// import devIcon from '@iconify-icons/fa-brands/dev';
-// import process from "../image/process.png";
 function Home() {
   // const items = [
   //   { width: 1, itemsToShow: 5 },
