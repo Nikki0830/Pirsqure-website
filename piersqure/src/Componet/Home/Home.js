@@ -62,6 +62,11 @@ function Home() {
                   Comming soon
                 </p>
               </div>
+              <p className="card-parag">
+                Software development refers to a set of computer science
+                activities dedicated to the process of creating, designing,
+                deploying and supporting software.
+              </p>
             </div>
           </Col>
           <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
@@ -387,8 +392,8 @@ function Home() {
                 <p
                   className="Devpara-1"
                   width="100%"
-                  direction="up"
-                  height="100px"
+                  // direction="up"
+                  // height="100px"
                 >
                   Software development is the art of turning ideas into
                   functional and reliable computer programs.
@@ -411,8 +416,8 @@ function Home() {
                   {" "}
                   Floating Letters{" "}
                 </FloatingLettersTextBuilder> */}
-                <br />
-                <br />
+                {/* <br />
+                <br /> */}
                 <p
                   className="Devpara-1"
                   width="100%"
@@ -424,8 +429,8 @@ function Home() {
                   efficient development, quick iterations, and continuous
                   improvement of software products.
                 </p>
-                <br />
-                <br />
+                {/* <br />
+                <br /> */}
                 <p
                   className="Devpara-1"
                   width="100%"
@@ -436,8 +441,8 @@ function Home() {
                   including web development, mobile app development, artificial
                   intelligence, data analysis, and more.
                 </p>
-                <br />
-                <br />
+                {/* <br />
+                <br /> */}
                 <p
                   className="Devpara-1"
                   width="100%"
