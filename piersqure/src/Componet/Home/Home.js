@@ -17,7 +17,9 @@ function Home() {
   // ];
   return (
     <>
-      <p className="align-self-centert mt-4" id = "our-sevices">Our Services</p>
+      <p className="align-self-centert mt-4" id="our-sevices">
+        Our Services
+      </p>
       <div className="container">
         <div className="row">
           {/* <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
@@ -642,6 +644,18 @@ function Home() {
                 ))}
               </Carousel> */}
               {/* ------------------- Carouser---------------- */}
+              <h2>Animated Text Over a Faded Image on Hover</h2>
+              <div className="example">
+                <img
+                  src="https://th.bing.com/th?id=OIP.ESb1gwQZ8Ki5X_JDNlZ3_QHaD_&w=340&h=183&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+                  width="300"
+                  height="300"
+                  alt="tree"
+                />
+                <div className="content">
+                  <div className="text">Tree</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

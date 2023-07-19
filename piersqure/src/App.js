@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Componet/Footer/Footer";
 import Navbar from "./Componet/Header/Navbar";
 import Routefile from "./Componet/Router/Routefile";
 
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Routefile />
+      <Footer/>
     </div>
   );
 }
