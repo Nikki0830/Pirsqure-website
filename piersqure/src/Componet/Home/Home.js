@@ -17,7 +17,7 @@ function Home() {
   // ];
   return (
     <>
-      <p className="align-self-centert mt-4">Our Services</p>
+      <p className="align-self-centert mt-4" id = "our-sevices">Our Services</p>
       <div className="container">
         <div className="row">
           {/* <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
