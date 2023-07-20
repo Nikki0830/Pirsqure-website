@@ -305,7 +305,7 @@ function Home() {
             </div>
           </div>
           <div
-          className=""
+            className=""
             style={{
               backgroundImage: `url("https://th.bing.com/th/id/OIP.66TNqL3N2XweZEvr5OqDIAHaEK?w=297&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7")`,
               backgroundRepeat: "no-repeat",
@@ -316,8 +316,9 @@ function Home() {
               marginTop: "10rem",
             }}
           >
-            <div className="conversation-container">    
-              <Carousel >
+              <h2>Animated Text Over a Faded Image on Hover</h2>
+            <div className="conversation-container m-4 d-flex justify-content-evenly">
+              <Carousel>
                 <Item className="slider-iamges-container">
                   <img
                     className="slider-iamges"
@@ -341,18 +342,18 @@ function Home() {
                 </Item>
               </Carousel>
               {/* ------------------- Carouser---------------- */}
-              {/* <h2>Animated Text Over a Faded Image on Hover</h2> */}
-              <div className="example">
-                <img
-                className="animation-image"
-                  src="https://th.bing.com/th/id/OIP.gdXt2B0gwip1CbavaqpiuwHaE8?w=275&h=182&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-                  width="500"
-                  height="300"
-                  alt="tree"
-                />
-                <div className="content">
-                  <div className="text">Tree</div>
-                </div>
+            
+            </div>
+            <div className="example">
+              <img
+                className="animation-image "
+                src="https://th.bing.com/th/id/OIP.gdXt2B0gwip1CbavaqpiuwHaE8?w=275&h=182&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                width="500"
+                height="300"
+                alt="tree"
+              />
+              <div className="content">
+                <div className="text">Tree</div>
               </div>
             </div>
           </div>
