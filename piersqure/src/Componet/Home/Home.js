@@ -455,16 +455,18 @@ function Home() {
               </div>
             </div>
           </div>
-          <div
+          {/* <div
+          className=" d-flex justify-content-center"
             style={{
               backgroundImage: `url("https://th.bing.com/th/id/OIP.66TNqL3N2XweZEvr5OqDIAHaEK?w=297&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7")`,
               backgroundRepeat: "no-repeat",
-              height: "16rem",
+              height: "26rem",
               width: "100%",
-              // float:"inline-end",
-              marginTop: "16rem",
+              // paddingLeft:"10%",
+              // // float:"inline-end",
+              marginTop: "6rem",
             }}
-          >
+          > */}
             <div className="conversation-container">
               {/* <hr
                 style={{
@@ -649,11 +651,12 @@ function Home() {
                 ))}
               </Carousel> */}
               {/* ------------------- Carouser---------------- */}
-              <h2>Animated Text Over a Faded Image on Hover</h2>
+              {/* <h2>Animated Text Over a Faded Image on Hover</h2> */}
               <div className="example">
                 <img
+                className="animation-image"
                   src="https://th.bing.com/th?id=OIP.ESb1gwQZ8Ki5X_JDNlZ3_QHaD_&w=340&h=183&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
-                  width="300"
+                  width="500"
                   height="300"
                   alt="tree"
                 />
@@ -664,7 +667,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </>
   );
 }
