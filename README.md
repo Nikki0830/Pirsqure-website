@@ -2,9 +2,7 @@
 <p>Small part of home page</p>
 
 
-![home](https://github.com/Nikki0830/Pirsqure-website/assets/69712671/a7d32a2f-4d9a-4a5a-b2bb-7bd67b991647)
-<br/>
-<br/>
+
 ![Home2](https://github.com/Nikki0830/Pirsqure-website/assets/69712671/5e32a3c3-0ae9-4068-80d7-c41fce41954e)
 <br/>
 <br/>
