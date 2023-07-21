@@ -1,5 +1,5 @@
 <h1>Home Page</h1>
-<p>Small part of home page</p>
+<p>Small parts of home page</p>
 
 
 
