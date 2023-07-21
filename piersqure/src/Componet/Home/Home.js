@@ -19,8 +19,9 @@ function Home() {
   return (
     <>
       <p className="align-self-centert" id="our-sevices">
-        Our Services
+        Our Services &#128512;
       </p>
+      {/* <p>I will display &#128512;</p> */}
       <div className="container">
         <div className="row">
           {/* <Col xs={12} sm={4} lg={4} xl={3} className="mb-4">
@@ -303,7 +304,7 @@ function Home() {
                   It involves analyzing requirements, designing system
                   architecture, coding, testing, and deploying.
                 </p>
-                <div
+                {/* <div
                   style={{
                     backgroundImage: `url("https://th.bing.com/th/id/OIP.4iPjD9_rtozj-rNZGYediQHaEK?w=275&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7")`,
                     backgroundRepeat: "no-repeat",
@@ -314,7 +315,7 @@ function Home() {
                   }}
                 >
                   <Library/>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

@@ -3,9 +3,9 @@ import TextTransition, { presets } from "react-text-transition";
 
 function Library() {
   const TEXTS = [
-    "Sometimes later becomes never.DO IT NOW",
-    "If you can dream it,you can achieve it",
-    "Get motivated.Stay",
+    "If you obey all the rules, you miss all the fun ―Katharine Hepburn",
+    "Start each day with a positive thought and a grateful heart. ― Roy T. Bennett",
+    "o what is right, not what is easy nor what is popular. ― Roy T. Bennett ",
     // "into",
     // "Digital",
     // "Reality",
@@ -25,16 +25,16 @@ function Library() {
         style={{
           color: "black",
           fontWeight: "bolder",
-          fontFamily:"cursive",
+          fontFamily: "cursive",
           // marginLeft: 30,
-          textShadow:"2px 2px 5px cyan",
-        fontSize:"50px",
-        //   width:"20px",
-        //   paddingTop:2
+          textShadow: "2px 2px 2px cyan",
+          fontSize: "40px",
+          //   width:"20px",
+          //   paddingTop:2
         }}
       >
         <TextTransition springConfig={presets.wobbly}>
-          {TEXTS[index % TEXTS.length]}
+          <p>{TEXTS[index % TEXTS.length]}&#129342;</p>
         </TextTransition>
       </h1>
     </>
