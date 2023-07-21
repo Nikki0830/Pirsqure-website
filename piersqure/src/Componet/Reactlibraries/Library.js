@@ -6,9 +6,9 @@ function Library() {
     "Sometimes later becomes never.DO IT NOW",
     "If you can dream it,you can achieve it",
     "Get motivated.Stay",
-    "into",
-    "Digital",
-    "Reality",
+    // "into",
+    // "Digital",
+    // "Reality",
   ];
   const [index, setIndex] = React.useState(0);
   React.useEffect(() => {
@@ -25,9 +25,10 @@ function Library() {
         style={{
           color: "black",
           fontWeight: "bolder",
-          fontFamily:"monospace",
-          marginLeft: 30,
-        fontSize:"15px",
+          fontFamily:"",
+          // marginLeft: 30,
+          textShadow:"2px 2px 5px cyan",
+        fontSize:"50px",
         //   width:"20px",
         //   paddingTop:2
         }}

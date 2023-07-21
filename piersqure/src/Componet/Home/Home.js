@@ -6,6 +6,7 @@ import { BlinkingCursorTextBuilder } from "react-animated-text-builders";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
+import Library from "../Reactlibraries/Library";
 
 function Home() {
   // const items = [
@@ -17,7 +18,7 @@ function Home() {
   // ];
   return (
     <>
-      <p className="align-self-centert mt-4" id="our-sevices">
+      <p className="align-self-centert" id="our-sevices">
         Our Services
       </p>
       <div className="container">
@@ -224,7 +225,7 @@ function Home() {
                 height: "25rem",
                 width: "100%",
                 maxWidth: "35rem",
-                marginTop: "1rem",
+                marginTop: "5rem",
               }}
             ></div>
           </div>
@@ -267,6 +268,7 @@ function Home() {
                   Software development is the art of turning ideas into
                   functional and reliable computer programs.
                 </p>
+                {/* <br /> */}
                 <p
                   className="Devpara-1"
                   width="100%"
@@ -278,8 +280,8 @@ function Home() {
                   efficient development, quick iterations, and continuous
                   improvement of software products.
                 </p>
-                {/* <br />
-                <br /> */}
+                {/* <br /> */}
+                {/* <br /> */}
                 <p
                   className="Devpara-1"
                   width="100%"
@@ -290,8 +292,8 @@ function Home() {
                   including web development, mobile app development, artificial
                   intelligence, data analysis, and more.
                 </p>
-                {/* <br />
-                <br /> */}
+                {/* <br /> */}
+                {/* <br /> */}
                 <p
                   className="Devpara-1"
                   width="100%"
@@ -301,6 +303,18 @@ function Home() {
                   It involves analyzing requirements, designing system
                   architecture, coding, testing, and deploying.
                 </p>
+                <div
+                  style={{
+                    backgroundImage: `url("https://th.bing.com/th/id/OIP.4iPjD9_rtozj-rNZGYediQHaEK?w=275&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7")`,
+                    backgroundRepeat: "no-repeat",
+                    height: "25rem",
+                    width: "100%",
+                    maxWidth: "35rem",
+                    // marginTop: "5rem",
+                  }}
+                >
+                  <Library/>
+                </div>
               </div>
             </div>
           </div>
@@ -316,7 +330,11 @@ function Home() {
               marginTop: "10rem",
             }}
           >
-              <h2>Animated Text Over a Faded Image on Hover</h2>
+            <h2
+              style={{ textShadow: "2px 2px 5px purple", marginBottom: "4%" }}
+            >
+              Animated Text Over a Faded Image on Hover
+            </h2>
             <div className="conversation-container m-4 d-flex justify-content-evenly">
               <Carousel>
                 <Item className="slider-iamges-container">
@@ -342,7 +360,6 @@ function Home() {
                 </Item>
               </Carousel>
               {/* ------------------- Carouser---------------- */}
-            
             </div>
             <div className="example">
               <img
@@ -353,7 +370,10 @@ function Home() {
                 alt="tree"
               />
               <div className="content">
-                <div className="text">Tree</div>
+                <div className="text">
+                  “First, solve the problem. Then, write the code.” – John
+                  Johnson
+                </div>
               </div>
             </div>
           </div>
