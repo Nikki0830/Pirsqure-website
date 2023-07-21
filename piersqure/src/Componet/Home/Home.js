@@ -7,6 +7,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import Carousel from "react-elastic-carousel";
 import Item from "./Item";
 import Library from "../Reactlibraries/Library";
+// import Library from "../Reactlibraries/Library";
 
 function Home() {
   // const items = [
@@ -18,7 +19,11 @@ function Home() {
   // ];
   return (
     <>
-      <p className="align-self-centert" id="our-sevices">
+      <p
+        className="align-self-centert"
+        id="our-sevices"
+        style={{ textShadow: "2px 2px 2px cyan" }}
+      >
         Our Services &#128512;
       </p>
       {/* <p>I will display &#128512;</p> */}
@@ -332,9 +337,15 @@ function Home() {
             }}
           >
             <h2
-              style={{ textShadow: "2px 2px 5px purple", marginBottom: "4%" }}
+              style={{
+                textShadow: "2px 2px 5px purple",
+                marginBottom: "4%",
+                fontFamily:"revert-layer",
+                fontWeight: "bolder",
+                fontSize:"40px"
+              }}
             >
-              Animated Text Over a Faded Image on Hover
+              Software Development &#128512;
             </h2>
             <div className="conversation-container m-4 d-flex justify-content-evenly">
               <Carousel>
@@ -363,6 +374,7 @@ function Home() {
               {/* ------------------- Carouser---------------- */}
             </div>
             <div className="example">
+              <Library/>
               <img
                 className="animation-image "
                 src="https://th.bing.com/th/id/OIP.gdXt2B0gwip1CbavaqpiuwHaE8?w=275&h=182&c=7&r=0&o=5&dpr=1.5&pid=1.7"
