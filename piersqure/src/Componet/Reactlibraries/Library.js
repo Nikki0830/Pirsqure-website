@@ -25,7 +25,7 @@ function Library() {
         style={{
           color: "black",
           fontWeight: "bolder",
-          // fontFamily:"cursive",
+          fontFamily:"cursive",
           // marginLeft: 30,
           textShadow:"2px 2px 5px cyan",
         fontSize:"50px",
