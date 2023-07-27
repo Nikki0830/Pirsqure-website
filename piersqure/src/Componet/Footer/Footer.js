@@ -1,29 +1,59 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import  "./Footer.css"
+import "./Footer.css";
+import { Icon } from "@iconify/react";
 
 export class Footer extends Component {
   render() {
     return (
       <>
         {/* <!-- Footer --> */}
-        <footer className="text-center text-lg-start bg-light text-muted" id = "Footer-container">
+        <footer
+          className="text-center text-lg-start bg-light text-muted"
+          id="Footer-container"
+        >
           {/* <!-- Section: Social media --> */}
           <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             {/* <!-- Left --> */}
-            <div className="me-5 d-none d-lg-block">
+            <div className="me-5 d-none d-lg-block" id="get-connected">
               <span>Get connected with us on social networks:</span>
             </div>
             {/* <!-- Left --> */}
 
             {/* <!-- Right --> */}
             <div>
-              <Link to="/Path"> Contact us </Link>
-              <Link to="/Path"> Contact us </Link>
-              <Link to="/Path"> Contact us </Link>
-              <Link to="/Path"> Contact us </Link>
-              <Link to="/Path"> Contact us </Link>
-              <Link to="/Path"> Contact us </Link>
+              <Link to="/Path">
+                <Icon
+                  icon="skill-icons:twitter"
+                  width="30"
+                  height="30"
+                  className="m-2"
+                />
+              </Link>
+              <Link to="/Path">
+                <Icon
+                  icon="openmoji:youtube"
+                  width="30"
+                  height="30"
+                  className="m-2"
+                />
+              </Link>
+              <Link to="/Path">
+                <Icon
+                  icon="logos:facebook"
+                  width="30"
+                  height="30"
+                  className="m-2"
+                />
+              </Link>
+              <Link to="/Path">
+                <Icon
+                  icon="skill-icons:instagram"
+                  width="30"
+                  height="30"
+                  className="m-2"
+                />
+              </Link>
             </div>
             {/* <!-- Right --> */}
           </section>
@@ -37,8 +67,8 @@ export class Footer extends Component {
                 {/* <!-- Grid column --> */}
                 <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                   {/* <!-- Content --> */}
-                  <h6 className="text-uppercase fw-bold mb-4">
-                    <i className="fas fa-gem me-3"></i>Company name
+                  <h6 className="text-uppercase fw-bold mb-4" id = "piersqure">
+                    <i className="fas fa-gem me-3"></i>PIERSQURE
                   </h6>
                   <p>
                     Here you can use rows and columns to organize your footer

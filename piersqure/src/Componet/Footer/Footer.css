@@ -1,3 +1,19 @@
-#Footer-container{
-    margin-top: 19rem;
+#Footer-container {
+  margin-top: 18rem;
+  background-image: linear-gradient(to bottom right, cyan, white, green);
+}
+#get-connected {
+  font-weight: bold;
+  /* text-shadow: 2px 2px black; */
+  background: -webkit-linear-gradient(black,grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: medium;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#piersqure{
+    font-size: 60px;
+    background: -webkit-linear-gradient(green,black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
