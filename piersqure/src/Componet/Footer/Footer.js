@@ -65,15 +65,15 @@ export class Footer extends Component {
               {/* <!-- Grid row --> */}
               <div className="row mt-3">
                 {/* <!-- Grid column --> */}
-                <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <div className="col-md-3 col-lg-4 col-xl-3  mb-4">
                   {/* <!-- Content --> */}
-                  <h6 className="text-uppercase fw-bold mb-4" id = "piersqure">
-                    <i className="fas fa-gem me-3"></i>PIERSQURE
+                  <h6 className="text-uppercase fw-bold mb-4" id="piersqure">
+                    <i className="fas fa-gem "></i>PIERSQURE
                   </h6>
                   <p>
-                    Here you can use rows and columns to organize your footer
-                    content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit.
+                    "Our Preparation is your Profit" "Want to stand out of the
+                    crowd, be heard, and move your business forward ?
+                    PIERSQURE can help."
                   </p>
                 </div>
                 {/* <!-- Grid column --> */}
